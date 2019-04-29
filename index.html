@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="BioSite for Fundamentals of Web Development, focusing on Billy King">
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script src="scroll.js"></script>
+	
+	<title> BioSite </title>
+</head>
+
+<body>
+	<div id="containter">
+		<section id="introduction">
+				<img src="images/central_crest.png" alt="CHS Crest" class="intro_image" />
+				
+				<a href="#personal" class="button">Welcome</a>
+		</section>
+		
+		<section id="personal">
+			<h1> Personal Information </h1>
+				<p>
+					Billy King was born on July 18, 1974 at UT Hospital. He has lived in Knoxville, Tennessee for most of his life, aside from short periods spent in Union County, Kingsport, and Tulsa, Oklahoma. He is the father of three children: Blake, turning 24, Kelsey, turning 22, and Jobe, 17. 
+				</p>
+		</section>
+		
+		<section id="school">
+			<h1> School </h1>
+			<!-- Placeholder for real school info, will include images and potential CHS football footage (waiting on subject to find these). -->
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et neque luctus, euismod est non, luctus eros. Suspendisse quis justo dignissim, semper neque consequat, bibendum augue. Nullam scelerisque augue et nibh consectetur, vel egestas tellus ultricies. Vivamus consectetur mattis cursus. Vestibulum pulvinar urna magna, eget efficitur neque feugiat eu. Sed at magna orci. Praesent vel porta turpis. Morbi eget vulputate augue. Mauris arcu odio, fringilla aliquet metus ac, ullamcorper pellentesque nulla. Fusce molestie rutrum nisl, sed tempus ipsum finibus et. Mauris ultrices tempor est id fermentum. Morbi egestas tempus dolor sit amet fermentum. Nulla non magna et sapien ultrices egestas. Phasellus lobortis vulputate faucibus. Mauris ornare eu purus et blandit. Duis malesuada vel nibh id congue.
+			</p>
+		</section>
+		
+		<section id="work">
+			<h1> Work </h1>
+			<!-- Placeholder for work info, will be a vertical animated timeline that outlines years in business and work experience. -->
+				<div class="work_timeline">
+					<div class="work_container left">
+						<div class="work_content">
+							<h2> 2003 </h2>
+							<p class="work_p"> Worked for brother-in-law, Dwight Bill, laying tile in Tulsa, Oklahoma </p>
+						</div>
+					</div>
+					
+					<div class="work_container right">
+						<div class="work_content">
+							<h2> 2004 </h2>
+							<p class="work_p"> Started a tile company, BD Custom Tile, with Dennis Shipley in Knoxville, TN </p>
+						</div>
+					</div>
+					
+					<div class="work_container left">
+						<div class="work_content">
+							<h2> 2005 </h2>
+							<p class="work_p"> Started Billy King Tile Service independently </p>
+						</div>
+					</div>
+					
+					<div class="work_container right">
+						<div class="work_content">
+							<h2> 2005 </h2>
+							<p class="work_p"> Began work at Powell Brothers Contracting </p>
+						</div>
+					</div>
+					
+					<div class="work_container left">
+						<div class="work_content">
+							<h2> 2013 </h2>
+							<p class="work_p"> Went back in to business with Dennis Shipley to start He Is Risen Restorations. </p>
+						</div>
+					</div>
+					
+					<div class="work_container right">
+						<div class="work_content">
+							<h2> 2014 </h2>
+							<p class="work_p"> Started K&J Home Renovations independently. </p>
+						</div>
+					</div>
+					
+					<div class="work_container left">
+						<div class="work_content">
+							<h2> 2015 </h2>
+							<p class="work_p"> Got a job at TDK Construction as cite superintendent. </p>
+						</div>
+					</div>
+					
+					<div class="work_container right">
+						<div class="work_content">
+							<h2> 2018 </h2>
+							<p class="work_p"> Began working as superintendent at Grand Oaks Construction </p>
+						</div>
+					</div>
+				</div>
+		</section>
+			
+		<section id="contact">
+			<h1> Contact </h1>
+				<div class="form_container">
+					<form id="form_contact" action="" method="post">
+						<h2> placeholder </h2>
+							<label for="fname"> First Name </label>
+							<input type="text" id="fname" name="firstname" placeholder="First Name...">
+						
+							<label for="lname"> Last Name </label>
+							<input type="text" id="lname" name="lastname" placeholder="Last Name...">
+						
+							<label for="email"> E-mail </label>
+							<input type="email" id="email" name="email" placeholder="E-mail...">
+						
+							<label for="phone"> Phone Number </label>
+							<input type="tel" id="phone" name="phone" placeholder="Phone Number...">
+						
+							<label for="message"> Message </label>
+							<textarea tabindex="5" placeholder="Your message..."></textarea>
+						
+							<button name="submit" type="submit" id="contact_submit" data-submit="...Sending"> Submit </button>
+					</form>
+				</div>
+			
+		</section>
+	</div>
+</body>
+</html>
